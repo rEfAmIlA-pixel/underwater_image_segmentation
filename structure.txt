@@ -1,0 +1,18 @@
+project/
+├── archs/
+│   ├── blocks.py           # ✔VGGBlock等基础模块
+│   ├── nested_unet.py      # ✔架构
+│   └── unet.py             # ✔架构
+├── checkpoints/
+│   ├── best_model.pt       # ✔效果最好的模型
+│   └── final_model.pt      # ✔最终的模型
+├── evaluation_results/
+├── metrics/
+│   └── iou_meter.py        # ✔IoU
+├── config.py               # ✔参数配置
+├── dataset.py              # ✔数据集
+├── losses.py               # ✔损失函数
+├── predict.py              # ✔测试脚本
+├── train.py                # ✔主训练脚本
+└── utils.py                # ✔工具
+
